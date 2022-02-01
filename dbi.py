@@ -26,6 +26,7 @@ class DbInteraction:
             print("Username: ", post[0])
             print("Post content: ", post[1])
             print("Post id: ", post[2])
+            print("-------------------------------")
 
         cursor.close()
         conn.close()
